@@ -19,7 +19,7 @@ const Loader: React.FC<Props> = ({ children, loading, className }) => {
   return (
     <Container>
       {loading && (
-        <Overlay className={className}>
+        <Overlay className={className} data-testid="overlay">
           <CircularProgress />
         </Overlay>
       )}
