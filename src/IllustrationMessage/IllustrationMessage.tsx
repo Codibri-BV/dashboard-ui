@@ -20,7 +20,7 @@ const EmptyMessage: React.FC<IllustrationProps> = ({
 }) => {
   return (
     <Container>
-      <Box textAlign='center'>
+      <Box textAlign="center">
         <IllustrationWrap>{illustration}</IllustrationWrap>
         {message && <Message>{message}</Message>}
         {React.Children.count(children) > 0 && <Box mt={3}>{children}</Box>}

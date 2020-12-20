@@ -1,8 +1,8 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
   position: relative;
-`
+`;
 
 export const Overlay = styled.div`
   position: absolute;
@@ -15,4 +15,4 @@ export const Overlay = styled.div`
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.8);
-`
+`;

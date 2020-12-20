@@ -1,6 +1,8 @@
 import React from 'react';
 
-import MuiAvatar, { AvatarProps as MuiAvatarProps } from '@material-ui/core/Avatar';
+import MuiAvatar, {
+  AvatarProps as MuiAvatarProps
+} from '@material-ui/core/Avatar';
 
 export interface AvatarProps extends MuiAvatarProps {
   /**
@@ -17,7 +19,12 @@ export interface AvatarProps extends MuiAvatarProps {
 /**
  * User avatar
  */
-export const Avatar: React.FC<AvatarProps> = ({ username, image, alt, ...avatarProps }) => {
+export const Avatar: React.FC<AvatarProps> = ({
+  username,
+  image,
+  alt,
+  ...avatarProps
+}) => {
   if (image) {
     avatarProps.src = image;
   }

@@ -4,7 +4,7 @@ import Avatar from './';
 
 export default {
   title: 'User/Avatar',
-  component: Avatar,
+  component: Avatar
 };
 
 export const noUser = () => <Avatar />;

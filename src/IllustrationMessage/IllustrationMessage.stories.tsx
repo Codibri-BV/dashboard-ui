@@ -11,12 +11,12 @@ export default {
 } as Meta;
 
 export const OnlyMessage: React.VFC<IllustrationProps> = () => (
-  <IllustrationMessage message='test' />
+  <IllustrationMessage message="test" />
 );
 
 export const WithChildren: React.VFC<IllustrationProps> = () => (
-  <IllustrationMessage message='Click the button bellow to start the action'>
-    <Button variant='contained' color='primary'>
+  <IllustrationMessage message="Click the button bellow to start the action">
+    <Button variant="contained" color="primary">
       Action
     </Button>
   </IllustrationMessage>
