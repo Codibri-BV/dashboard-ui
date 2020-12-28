@@ -19,3 +19,7 @@ export const MenuButton = styled(IconButton)`
     display: none;
   }
 `;
+
+export const Spacer = styled.div`
+  flex-grow: 1;
+`;

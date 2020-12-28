@@ -2,7 +2,7 @@
 
 > React dashboard UI components based on Material UI
 
-[![NPM](https://img.shields.io/npm/v/@codibri/dashboard-ui.svg)](https://www.npmjs.com/package/@codibri/dashboard-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@codibri/dashboard-ui.svg)](https://www.npmjs.com/package/@codibri/dashboard-ui) [![Build Status](https://travis-ci.com/Codibri-BV/dashboard-ui.svg?branch=main)](https://travis-ci.com/Codibri-BV/dashboard-ui)
 
 ## Install
 

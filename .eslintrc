@@ -21,7 +21,7 @@
   },
   "settings": {
     "react": {
-      "version": "16"
+      "version": "detect"
     }
   },
   "plugins": [
@@ -33,7 +33,7 @@
     "space-before-function-paren": "off",
     "react/prop-types": "off",
     "react/jsx-handler-names": "error",
-    "react/jsx-fragments": "error",
+    "react/jsx-fragments": ["error", "element"],
     "react/no-unused-prop-types": "off",
     "simple-import-sort/imports": [
       "error",
