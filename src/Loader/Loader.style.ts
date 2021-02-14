@@ -1,7 +1,12 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.div<{ fullscreen?: boolean }>`
   position: relative;
+  ${({ fullscreen }) =>
+    fullscreen &&
+    css`
+      height: 100vh;
+    `}
 `;
 
 export const Overlay = styled.div`

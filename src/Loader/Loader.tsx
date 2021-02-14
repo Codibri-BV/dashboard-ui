@@ -13,16 +13,25 @@ export interface Props {
    * classname for styled-components
    */
   className?: string;
+
+  fullscreen?: boolean;
 }
 
-const Loader: React.FC<Props> = ({ children, loading, className }) => {
+const Loader: React.FC<Props> = ({
+  children,
+  loading,
+  className,
+  fullscreen
+}) => {
+  if (!loading) {
+    return <React.Fragment>children</React.Fragment>;
+  }
+
   return (
-    <Container>
-      {loading && (
-        <Overlay className={className} data-testid="overlay">
-          <CircularProgress />
-        </Overlay>
-      )}
+    <Container fullscreen={fullscreen}>
+      <Overlay className={className} data-testid="overlay">
+        <CircularProgress />
+      </Overlay>
       {children}
     </Container>
   );
